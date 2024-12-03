@@ -1,12 +1,16 @@
 import { Navbar, Main, Product, Footer } from "../components";
+import {Hoome} from "../pages/hoome.css";
 
-function Home() {
+function  Home() {
   return (
     <>
-      <Navbar />
+    <div className="main_home">
+    <Navbar />
       <Main />
       <Product />
       <Footer />
+    </div>
+      
     </>
   )
 }

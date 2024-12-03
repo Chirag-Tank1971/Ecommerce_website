@@ -19,6 +19,9 @@ const Checkout = () => {
       </div>
     );
   };
+  const cartEmpty = () =>  {
+      EmptyCart()
+  };
 
   const ShowCheckout = () => {
     let subtotal = 0;
@@ -169,6 +172,13 @@ const Checkout = () => {
                         <select className="form-select" id="state" required>
                           <option value="">Choose...</option>
                           <option>Punjab</option>
+                          <option>Haryana</option>
+                          <option>Rajasthan</option>
+                          <option>Jammu</option>
+                          <option>UP</option>
+                          <option>Gujrat</option>
+                          <option>Maharasta</option>
+                          <option>Goa</option>
                         </select>
                         <div className="invalid-feedback">
                           Please provide a valid state.
@@ -266,13 +276,16 @@ const Checkout = () => {
                     </div>
 
                     <hr className="my-4" />
-
+                      
                     <button
                       className="w-100 btn btn-primary "
-                      type="submit" disabled
+                      type="submit"
+                      onClick={cartEmpty} 
                     >
                       Continue to checkout
                     </button>
+                    
+                    
                   </form>
                 </div>
               </div>

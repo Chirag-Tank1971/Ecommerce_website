@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.each-slide {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 750px;
+  }
+  
+  .each-slide>div {
+    width: 100%;
+  }
+  
+  .each-slide>div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .slider-title {
+    width: 100%;
+    font-size: 1rem;
+    position: absolute;
+    text-align: center;
+    z-index: 10;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .slider-title h5{
+    color: rgb(17, 59, 17);
+     color: white;
+    font-style: italic;
+    font-size: 2.5rem;
+    font-weight: 700;
+    transform: translateY(320px);
+  }
+  .slider-title p{
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: italic;
+    transform:translateY(320px);
+  }
+  .card img{
+    object-fit: contain;
+    object-position: center;
+  }
+  .card{
+    box-shadow: 2px 5px 20px rgba(65, 65, 66, 0.616);
+  }
+  .card{
+    
+  }

@@ -34,9 +34,12 @@ const Login = () => {
                 <p>New Here? <Link to="/register" className="text-decoration-underline text-info">Register</Link> </p>
               </div>
               <div className="text-center">
-                <button class="my-2 mx-auto btn btn-dark" type="submit" disabled>
+            <Link to="/product">
+            <button  class="my-2 mx-auto btn btn-dark" type="submit"  >
                   Login
                 </button>
+            </Link>
+ 
               </div>
             </form>
           </div>

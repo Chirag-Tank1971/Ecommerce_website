@@ -14,7 +14,7 @@ const Register = () => {
                             <div class="form my-3">
                                 <label for="Name">Full Name</label>
                                 <input
-                                    type="email"
+                                    type="text"
                                     class="form-control"
                                     id="Name"
                                     placeholder="Enter Your Name"
@@ -42,9 +42,12 @@ const Register = () => {
                                 <p>Already has an account? <Link to="/login" className="text-decoration-underline text-info">Login</Link> </p>
                             </div>
                             <div className="text-center">
-                                <button class="my-2 mx-auto btn btn-dark" type="submit" disabled>
+                                <Link to="/product">
+                                <button class="my-2 mx-auto btn btn-dark" type="submit" >
                                     Register
                                 </button>
+                                </Link>
+                                
                             </div>
                         </form>
                     </div>

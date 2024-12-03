@@ -5,7 +5,7 @@ A Ecommerce Website made with React.js Framework.
 
 ## Demo
 
-https://reactjs-ecommerce-app.vercel.app/
+
 
 ## Features
 
@@ -17,15 +17,6 @@ https://reactjs-ecommerce-app.vercel.app/
 
 ![App Screenshot](https://i.ibb.co/fQ293tm/image.png)
 
-
-
-## Run Locally
-
-Clone the project
-
-```bash
-  git clone https://github.com/ssahibsingh/React_E-Commerce
-```
 
 Go to the project directory
 
@@ -54,14 +45,6 @@ Start the server
 * [Bootstrap](https://getbootstrap.com/)
 * [Fake Store API](https://fakestoreapi.com/)
 
-## Contributing
 
-Contributions are always welcome!
-Just raise an issue, we will discuss it.
-
-
-## Feedback
-
-If you have any feedback, please reach out to me [here](https://ssahibsingh.github.io/#contact)
 
 
